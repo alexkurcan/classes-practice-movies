@@ -25,11 +25,11 @@ const movies = new Movie(
   "Kill Bill: Volume 1",
   ["Bill", "The Bride (Main Character)", "O-Ren Ishii", "Gogo Yubari","Budd", "Vernita Green", "Elle Driver"],
   "The Bride was almost killed at her wedding rehearsal, she took a bullet to the head but lived, she goes on to try to kill the person who did this to  her. She has to kill Bill.",
-  9 + " out of 10"
+  9.5 + " out of 10"
 );
 // Display the initial movie info
 movies.displayInfo();
 // Update the rating
-movies.updateMovieRating(10 + " out of 10");
+movies.updateMovieRating(9.7 + " out of 10");
 // Display the updated movie info
 movies.displayInfo();
