@@ -19,7 +19,7 @@ class Movie {
         <p><strong>Rating:</strong> ${this.rating}</p>
         `;
     }
-}
+};
 // Test your implementation
 const movies = new Movie(
   "Kill Bill: Volume 1",
